@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EADBD27B-C5F4-4DB5-8071-335146ED8631}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeoViewer.Test</RootNamespace>
+    <AssemblyName>GeoViewer.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DundasWinGauge">
+      <HintPath>..\GeoViewer.Views.PictureView\bin\Debug\DundasWinGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\..\..\Open Sources\C#\DotNetZipLib\DotNetZipLib-Runtime-v1.9\zip-v1.9\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GeoViewer\Reference\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GeoViewer\Reference\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GeoViewer\Reference\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GeoViewer\Reference\Microsoft.SqlServer.SqlEnum.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeoViewer.Business\GeoViewer.Business.csproj">
+      <Project>{D7A78577-2110-43A7-A910-2833E83651B8}</Project>
+      <Name>GeoViewer.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Data\GeoViewer.Data.csproj">
+      <Project>{E7ACF6A3-A0A7-42E0-B2BC-225CBC141FD7}</Project>
+      <Name>GeoViewer.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Models\GeoViewer.Models.csproj">
+      <Project>{9310780F-5C43-4694-8578-214126C8BACE}</Project>
+      <Name>GeoViewer.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Geoviewer.Security\Geoviewer.Security.csproj">
+      <Project>{0A6DEAD5-CCE8-43D3-AC09-D5DCE7A4E3BD}</Project>
+      <Name>Geoviewer.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Setup\GeoViewer.Setup.csproj">
+      <Project>{20130959-43BF-4060-95E1-75DF1FCBF14B}</Project>
+      <Name>GeoViewer.Setup</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Utils\GeoViewer.Utils.csproj">
+      <Project>{445A0990-9B91-47AA-A2C6-536DEAE81024}</Project>
+      <Name>GeoViewer.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Views.ChartView\GeoViewer.Views.ChartView.csproj">
+      <Project>{A46025F6-19C5-4145-B03A-BB659B05D818}</Project>
+      <Name>GeoViewer.Views.ChartView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Views.PictureView\GeoViewer.Views.PictureView.csproj">
+      <Project>{1CF9EA7C-C7BB-482C-87D0-AE7810AC2516}</Project>
+      <Name>GeoViewer.Views.PictureView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Views.TextView\GeoViewer.Views.TextView.csproj">
+      <Project>{7E0BD334-5B05-48CF-883A-82E3B64A2D34}</Project>
+      <Name>GeoViewer.Views.TextView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer\GeoViewer.csproj">
+      <Project>{74F315E1-08F8-4E85-A0B0-51FDFCFCF622}</Project>
+      <Name>GeoViewer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

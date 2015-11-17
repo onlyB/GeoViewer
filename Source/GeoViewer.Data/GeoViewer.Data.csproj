@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7ACF6A3-A0A7-42E0-B2BC-225CBC141FD7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeoViewer.Data</RootNamespace>
+    <AssemblyName>GeoViewer.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackupRestoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackupRestoreForm.designer.cs">
+      <DependentUpon>BackupRestoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoggersManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoggersManagerForm.Designer.cs">
+      <DependentUpon>LoggersManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectAddEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectAddEditForm.Designer.cs">
+      <DependentUpon>ProjectAddEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectsManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectsManagerForm.Designer.cs">
+      <DependentUpon>ProjectsManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReadDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadDataForm.Designer.cs">
+      <DependentUpon>ReadDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SensorsManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SensorsManagerForm.Designer.cs">
+      <DependentUpon>SensorsManagerForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeoViewer.Business\GeoViewer.Business.csproj">
+      <Project>{D7A78577-2110-43A7-A910-2833E83651B8}</Project>
+      <Name>GeoViewer.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Models\GeoViewer.Models.csproj">
+      <Project>{9310780F-5C43-4694-8578-214126C8BACE}</Project>
+      <Name>GeoViewer.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Utils\GeoViewer.Utils.csproj">
+      <Project>{445A0990-9B91-47AA-A2C6-536DEAE81024}</Project>
+      <Name>GeoViewer.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BackupRestoreForm.resx">
+      <DependentUpon>BackupRestoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoggersManagerForm.resx">
+      <DependentUpon>LoggersManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectAddEditForm.resx">
+      <DependentUpon>ProjectAddEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectsManagerForm.resx">
+      <DependentUpon>ProjectsManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadDataForm.resx">
+      <DependentUpon>ReadDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SensorsManagerForm.resx">
+      <DependentUpon>SensorsManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_edit_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to_database_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correct_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\on_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\off_16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A46025F6-19C5-4145-B03A-BB659B05D818}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeoViewer.Views.ChartView</RootNamespace>
+    <AssemblyName>GeoViewer.Views.ChartView</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\..\study\University\Quan trac thuy dien\GeoViewer\GeoViewer\bin\Debug\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChartMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartMainForm.Designer.cs">
+      <DependentUpon>ChartMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartViewForm.Designer.cs">
+      <DependentUpon>ChartViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditScaleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditScaleForm.Designer.cs">
+      <DependentUpon>EditScaleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupCreate.Designer.cs">
+      <DependentUpon>GroupCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupsManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupsManagerForm.Designer.cs">
+      <DependentUpon>GroupsManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeoViewer.Business\GeoViewer.Business.csproj">
+      <Project>{D7A78577-2110-43A7-A910-2833E83651B8}</Project>
+      <Name>GeoViewer.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Models\GeoViewer.Models.csproj">
+      <Project>{9310780F-5C43-4694-8578-214126C8BACE}</Project>
+      <Name>GeoViewer.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Utils\GeoViewer.Utils.csproj">
+      <Project>{445A0990-9B91-47AA-A2C6-536DEAE81024}</Project>
+      <Name>GeoViewer.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChartMainForm.resx">
+      <DependentUpon>ChartMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartViewForm.resx">
+      <DependentUpon>ChartViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditScaleForm.resx">
+      <DependentUpon>EditScaleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupCreate.resx">
+      <DependentUpon>GroupCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupsManagerForm.resx">
+      <DependentUpon>GroupsManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_view_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

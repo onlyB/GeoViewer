@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="add_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imageIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imageIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditObjectForm_Position" xml:space="preserve">
+    <value>Vị trí, kích thước</value>
+  </data>
+  <data name="EditObjectForm_Title" xml:space="preserve">
+    <value>Thông tin đối tượng</value>
+  </data>
+  <data name="groupIndicatorIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\groupIndicatorIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PictureViewsManagerForm_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="EditObjectForm_Width" xml:space="preserve">
+    <value>Rộng</value>
+  </data>
+  <data name="PictureViewsManagerForm_vIEW" xml:space="preserve">
+    <value>Xem ảnh</value>
+  </data>
+  <data name="EditObjectForm_Left" xml:space="preserve">
+    <value>Lề trái</value>
+  </data>
+  <data name="EditObjectForm_Height" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="table_edit_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\table_edit_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PictureViewsManagerForm_Title" xml:space="preserve">
+    <value>Quản lý hình ảnh</value>
+  </data>
+  <data name="EditObjectForm_SelectSensor" xml:space="preserve">
+    <value>Chọn Cảm biến hiển thị</value>
+  </data>
+  <data name="horizontalBarIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horizontalBarIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PictureViewsManagerForm_New_Picture" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="verticalBarIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verticalBarIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditObjectForm_CurrentSensor" xml:space="preserve">
+    <value>Cảm biến đang chọn:</value>
+  </data>
+  <data name="EditObjectForm_Top" xml:space="preserve">
+    <value>Lề trên</value>
+  </data>
+  <data name="login_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="indicatorIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\indicatorIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditObjectForm_Size" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="EditObjectForm_PostionLabel" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="PictureViewsManagerForm_Edit_Information" xml:space="preserve">
+    <value>Sửa thông tin</value>
+  </data>
+  <data name="EditObjectForm_Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="gaugeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gaugeIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="numericIndicatorIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\numericIndicatorIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meterIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meterIcon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disk_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditGroupIndicatorForm_Current_Values" xml:space="preserve">
+    <value>Liên kết tới: </value>
+  </data>
+  <data name="EditGroupIndicatorForm_Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="EditGroupIndicatorForm_PictureViewTab" xml:space="preserve">
+    <value>Lựa chọn hình ảnh</value>
+  </data>
+  <data name="EditGroupIndicatorForm_Size" xml:space="preserve">
+    <value>Kích thước</value>
+  </data>
+  <data name="EditGroupIndicatorForm_Width" xml:space="preserve">
+    <value>Rộng</value>
+  </data>
+  <data name="EditGroupIndicatorForm_Height" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="EditGroupIndicatorForm_Position" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="EditGroupIndicatorForm_Top" xml:space="preserve">
+    <value>Lề trên</value>
+  </data>
+  <data name="EditGroupIndicatorForm_Left" xml:space="preserve">
+    <value>Lề trái</value>
+  </data>
+  <data name="EditGroupIndicatorForm_Title" xml:space="preserve">
+    <value>Thông tin đối tượng</value>
+  </data>
+  <data name="EditObjectForm_Current_Value" xml:space="preserve">
+    <value>Hiển thị: </value>
+  </data>
+  <data name="PictureInformationForm_Title" xml:space="preserve">
+    <value>Thông tin hình ảnh</value>
+  </data>
+  <data name="PictureInformationForm_Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="PictureInformationForm_IDescription" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="PictureInformationForm_IName" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Confirm_DeletePictureView" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa hình ảnh này không?</value>
+  </data>
+  <data name="Message_DeletePcitureViewSuccess" xml:space="preserve">
+    <value>Xóa thành công!</value>
+  </data>
+  <data name="Message_EditPictureViewSuccess" xml:space="preserve">
+    <value>Cập nhật thành công!</value>
+  </data>
+  <data name="Message_AddPictureViewSuccess" xml:space="preserve">
+    <value>Thêm hình ảnh thành công</value>
+  </data>
+  <data name="Warning_NoRecordSelected" xml:space="preserve">
+    <value>Chưa có hình ảnh nào được chọn!</value>
+  </data>
+  <data name="PictureViewsManagerForm_AddEdit" xml:space="preserve">
+    <value>Thêm / Sửa hình ảnh</value>
+  </data>
+  <data name="PictureViewsManagerForm_Description" xml:space="preserve">
+    <value>Thông tin mô tả</value>
+  </data>
+  <data name="PictureViewsManagerForm_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="PictureViewsManagerForm_Edit" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="PictureViewsManagerForm_RefreshTable" xml:space="preserve">
+    <value>Tải lại bảng</value>
+  </data>
+  <data name="PictureViewsManagerForm_save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Print" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu__Print_Preview" xml:space="preserve">
+    <value>Xem bản In</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Close" xml:space="preserve">
+    <value>Đóng lại</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Exit" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Add" xml:space="preserve">
+    <value>Thêm...</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_AddImage" xml:space="preserve">
+    <value>Ảnh</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Indicator" xml:space="preserve">
+    <value>Cảm biến</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Group_Indicator" xml:space="preserve">
+    <value>Nhóm cảm biến</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Gauge" xml:space="preserve">
+    <value>Thang đo tròn</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Vertical_Bar" xml:space="preserve">
+    <value>Thang đo dọc</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Horizontal_Bar" xml:space="preserve">
+    <value>Thang đo ngang</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Meter" xml:space="preserve">
+    <value>Thang đo</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Numeric_Indicator" xml:space="preserve">
+    <value>Đồng hồ số</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Switch_to_Edit_Mode" xml:space="preserve">
+    <value>Chuyển sang chế độ chỉnh sửa</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Bring_To_Front" xml:space="preserve">
+    <value>Đưa lên trước</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_EditObject" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_DeleteObject" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Chart_View" xml:space="preserve">
+    <value>Xem biểu đồ tương ứng</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Text_View" xml:space="preserve">
+    <value>Xem dữ liệu tương ứng</value>
+  </data>
+  <data name="PictureViewDetailForm_Menu_Picture_View" xml:space="preserve">
+    <value>Xem hình ảnh  tương ứng</value>
+  </data>
+  <data name="PictureViewDetailForm_Select_an_image" xml:space="preserve">
+    <value>Chọn một ảnh...</value>
+  </data>
+  <data name="PictureViewDetailForm_Title" xml:space="preserve">
+    <value>Xem hình ảnh</value>
+  </data>
+  <data name="Warning_NotDataToDisplay" xml:space="preserve">
+    <value>Không có dữ liệu để hiển thị!</value>
+  </data>
+  <data name="PictureViewDetailForm_swichValueMode_Raw" xml:space="preserve">
+    <value>Xem theo giá trị thô</value>
+  </data>
+  <data name="PictureViewDetailForm_swichValueMode_Calc" xml:space="preserve">
+    <value>Xem theo giá tính toán</value>
+  </data>
+  <data name="PictureViewDetailForm_InitializeComponent_View" xml:space="preserve">
+    <value>Tuỳ chỉnh xem</value>
+  </data>
+  <data name="PictureViewDetailForm_SwichToEditMode" xml:space="preserve">
+    <value>Chuyển sang chế độ chỉnh sửa</value>
+  </data>
+  <data name="PictureViewDetailForm_SwichToViewMode" xml:space="preserve">
+    <value>Chuyển sang chế độ xem</value>
+  </data>
+</root>

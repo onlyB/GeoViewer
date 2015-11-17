@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CF9EA7C-C7BB-482C-87D0-AE7810AC2516}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeoViewer.Views.PictureView</RootNamespace>
+    <AssemblyName>GeoViewer.Views.PictureView</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DundasWinGauge">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Dundas Software\Gauges\WinControlVS2008\bin\DundasWinGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EditGroupIndicatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditGroupIndicatorForm.Designer.cs">
+      <DependentUpon>EditGroupIndicatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditObjectsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditObjectsForm.Designer.cs">
+      <DependentUpon>EditObjectsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="groupIndicator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="indicator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PickBox.cs" />
+    <Compile Include="PictureViewDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureViewDetailForm.Designer.cs">
+      <DependentUpon>PictureViewDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureViewsManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureViewsManagerForm.Designer.cs">
+      <DependentUpon>PictureViewsManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeoViewer.Business\GeoViewer.Business.csproj">
+      <Project>{D7A78577-2110-43A7-A910-2833E83651B8}</Project>
+      <Name>GeoViewer.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Models\GeoViewer.Models.csproj">
+      <Project>{9310780F-5C43-4694-8578-214126C8BACE}</Project>
+      <Name>GeoViewer.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Utils\GeoViewer.Utils.csproj">
+      <Project>{445A0990-9B91-47AA-A2C6-536DEAE81024}</Project>
+      <Name>GeoViewer.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Views.ChartView\GeoViewer.Views.ChartView.csproj">
+      <Project>{A46025F6-19C5-4145-B03A-BB659B05D818}</Project>
+      <Name>GeoViewer.Views.ChartView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoViewer.Views.TextView\GeoViewer.Views.TextView.csproj">
+      <Project>{7E0BD334-5B05-48CF-883A-82E3B64A2D34}</Project>
+      <Name>GeoViewer.Views.TextView</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EditGroupIndicatorForm.resx">
+      <DependentUpon>EditGroupIndicatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditObjectsForm.resx">
+      <DependentUpon>EditObjectsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureViewDetailForm.resx">
+      <DependentUpon>PictureViewDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureViewsManagerForm.resx">
+      <DependentUpon>PictureViewsManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gaugeIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groupIndicatorIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horizontalBarIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indicatorIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meterIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numericIndicatorIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verticalBarIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_edit_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk_16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

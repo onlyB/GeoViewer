@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlarmManagerForm_ToDateTextBox" xml:space="preserve">
+    <value>Xem theo tùy chọn</value>
+  </data>
+  <data name="Message_EditLogSuccess" xml:space="preserve">
+    <value>Cập nhật ghi chú thành công!</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="disk_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlarmManagerForm_Ended" xml:space="preserve">
+    <value>Đã kết thúc</value>
+  </data>
+  <data name="AlarmManagerForm_Column_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="search_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlarmManagerForm_Column_IsEnded" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="AlarmManagerForm_Sensor" xml:space="preserve">
+    <value>Cảm biến</value>
+  </data>
+  <data name="AlarmManagerForm_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="AlarmManagerForm_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="AlarmManagerForm_Refresh_Hint" xml:space="preserve">
+    <value>Bỏ tìm kiếm</value>
+  </data>
+  <data name="AlarmManagerForm_Sensor_Hint" xml:space="preserve">
+    <value>Chỉ xem alarm logs của sensor được chọn</value>
+  </data>
+  <data name="AlarmManagerForm_Column_EndDate_Hint" xml:space="preserve">
+    <value>Thời gian kết thúc cảnh báo (giá trị đo từ sensor đã về đúng ngưỡng quy định)</value>
+  </data>
+  <data name="AlarmManagerForm_UnSearch" xml:space="preserve">
+    <value>Bỏ qua</value>
+  </data>
+  <data name="AlarmManagerForm_Column_LastEditedDate" xml:space="preserve">
+    <value>Ngày sửa cuối</value>
+  </data>
+  <data name="correct_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\correct_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Confirm_DeleteLogs" xml:space="preserve">
+    <value>Bạn có xóa {0} alarm logs đã chọn không?</value>
+  </data>
+  <data name="AlarmManagerForm_Save_Hint" xml:space="preserve">
+    <value>Lưu ghi chú</value>
+  </data>
+  <data name="delete_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bell_red_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bell_red_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlarmManagerForm_EditBox_Title" xml:space="preserve">
+    <value>Sửa / Xóa</value>
+  </data>
+  <data name="AlarmManagerForm_Note" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="refresh_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Warning_NoRecordSelected" xml:space="preserve">
+    <value>Bạn chưa chọn bản ghi nào!</value>
+  </data>
+  <data name="Message_DeleteLogsSuccess" xml:space="preserve">
+    <value>Xóa thành công {0} alarm logs!</value>
+  </data>
+  <data name="AlarmManagerForm_Column_EndDate" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="AlarmManagerForm_Column_CalcValue" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="AlarmManagerForm_Column_LastEditedUSer" xml:space="preserve">
+    <value>Người sửa cuối</value>
+  </data>
+  <data name="AlarmManagerForm_Search" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="AlarmManagerForm_Column_StartDate_Hint" xml:space="preserve">
+    <value>Thời gian bắt đầu cảnh báo (sensor đo được giá trị ngoài ngưỡng quy định)</value>
+  </data>
+  <data name="AlarmManagerForm_Running" xml:space="preserve">
+    <value>Đang diễn ra</value>
+  </data>
+  <data name="AlarmManagerForm_Column_StartDate" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="AlarmManagerForm_ToolTipTitle" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="AlarmManagerForm_Delete_Hint" xml:space="preserve">
+    <value>Xóa các logs được chọn</value>
+  </data>
+  <data name="AlarmManagerForm_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="AlarmManagerForm_Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="AlarmNotifyForm_Title" xml:space="preserve">
+    <value>{0} CẢM BIẾN ĐANG NGOÀI NGƯỠNG QUY ĐỊNH</value>
+  </data>
+  <data name="ALARM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ALARM.WAV;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nhay_kieu_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nhay_kieu_3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlarmManagerForm_ViewBoxTitle" xml:space="preserve">
+    <value>Xem theo tùy chọn</value>
+  </data>
+  <data name="AlarmManagerForm_Sensor_ID" xml:space="preserve">
+    <value>Mã cảm biến</value>
+  </data>
+  <data name="nhay_kieu_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nhay_kieu_2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlarmManagerForm_Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="AlarmManagerForm_ToDate_Hint" xml:space="preserve">
+    <value>Định dạng ngày / tháng / năm - dd/MM/yyyy</value>
+  </data>
+  <data name="bell_yellow_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bell_yellow_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

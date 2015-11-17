@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="folder_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_AddSensorSuccess" xml:space="preserve">
+    <value>Thêm cảm biến thành công!</value>
+  </data>
+  <data name="Message_DeleteSensorsSuccess" xml:space="preserve">
+    <value>Xóa thành công {0} cảm biến!</value>
+  </data>
+  <data name="Message_AddLoggerSuccess" xml:space="preserve">
+    <value>Thêm Logger thành công!
+Trước khi bấm nút đọc dữ liệu, bạn cần nhập hệ số các sensors trước!</value>
+  </data>
+  <data name="Message_ConfirmDeleteLogger" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa logger {0} ?</value>
+  </data>
+  <data name="Confirm_UpdateSensorParamFirst" xml:space="preserve">
+    <value>Các cảm biến trong logger này chưa được nhập hết tham số tính toán, do đó khi tiến hành đọc dữ liệu thô hệ thống không thể tự động tính toán giá trị thật cho các sensor này.
+Bạn có muốn cập nhật hệ số tính toán cho cáccảm biến ngay bây giờ không?</value>
+  </data>
+  <data name="save_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disk_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_Logger_SensorCount" xml:space="preserve">
+    <value>Số cảm biến : {0}</value>
+  </data>
+  <data name="Message_EditLoggerSuccess2" xml:space="preserve">
+    <value>Cập nhật thông tin Logger thành công!
+Tiến tiến trình tự động đọc dữ liệu của Logger đã hủy bỏ.</value>
+  </data>
+  <data name="to_database_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\to_database_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SensorManageForm_Title" xml:space="preserve">
+    <value>Quản lý cảm biến</value>
+  </data>
+  <data name="Label_Logger_FileSize" xml:space="preserve">
+    <value>Kích thước file: {0} bytes</value>
+  </data>
+  <data name="calculator_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="table_edit_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\table_edit_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_DeleteLoggerSuccess" xml:space="preserve">
+    <value>Xóa logger thành công!</value>
+  </data>
+  <data name="Message_EditLoggerSuccess1" xml:space="preserve">
+    <value>Cập nhật thông tin Logger thành công!
+Để bắt đầu tiến trình tự động đọc dữ liệu của Logger bạn hãy bấm nút [Bắt đầu đọc] bên dưới.</value>
+  </data>
+  <data name="Label_Logger_Status" xml:space="preserve">
+    <value>Trạng thái đọc : {0}</value>
+  </data>
+  <data name="delete_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="correct_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\correct_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_Logger_FirstDate" xml:space="preserve">
+    <value>Bản ghi đầu: {0}</value>
+  </data>
+  <data name="refresh_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Warning_NoRecordSelected" xml:space="preserve">
+    <value>Bạn chưa chọn bản ghi nào!</value>
+  </data>
+  <data name="Message_EditSensorSuccess" xml:space="preserve">
+    <value>Sửa thông tin cảm biến thành công!</value>
+  </data>
+  <data name="Label_Logger_RecordCount" xml:space="preserve">
+    <value>Số bản ghi: {0}</value>
+  </data>
+  <data name="warning_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_Logger_LastModify" xml:space="preserve">
+    <value>Lần đọc cuối: {0}</value>
+  </data>
+  <data name="Confirm_DeleteSensors" xml:space="preserve">
+    <value>Bạn có xóa {0} cảm biến đã chọn không?</value>
+  </data>
+  <data name="Label_Logger_LastDate" xml:space="preserve">
+    <value>Bản ghi cuối: {0}</value>
+  </data>
+  <data name="Message_CalculateSensorsSuccess" xml:space="preserve">
+    <value>Tính toán thành công {0} cảm biến!</value>
+  </data>
+  <data name="Message_ReadDataSuccess" xml:space="preserve">
+    <value>Đọc dữ liệu thành công!</value>
+  </data>
+  <data name="ConfirmMessageCaption" xml:space="preserve">
+    <value>Thông báo lựa chọn</value>
+  </data>
+  <data name="Confirm_CalculateSensors" xml:space="preserve">
+    <value>Bạn có muốn tính toán lại giá trị {0} cảm biến đã chọn không?</value>
+  </data>
+  <data name="Message_EditLoggerSuccess" xml:space="preserve">
+    <value>Cập nhật thành công!</value>
+  </data>
+  <data name="Label_Logger_Meta" xml:space="preserve">
+    <value>Meta: {0}</value>
+  </data>
+  <data name="on_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\on_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="off_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\off_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoggersManagerForm_Grid_Hint" xml:space="preserve">
+    <value>Click đúp để sửa thông tin Logger</value>
+  </data>
+  <data name="LoggersManagerForm_Column_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="LoggersManagerForm_Column_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="LoggersManagerForm_Column_Path" xml:space="preserve">
+    <value>Đường dẫn file data</value>
+  </data>
+  <data name="LoggersManagerForm_Column_AutoRead" xml:space="preserve">
+    <value>Tự động đọc</value>
+  </data>
+  <data name="LoggersManagerForm_ReadInterval" xml:space="preserve">
+    <value>Chu kỳ đọc(s)</value>
+  </data>
+  <data name="RefreshTable" xml:space="preserve">
+    <value>Tải lại bảng</value>
+  </data>
+  <data name="Refresh_Hint" xml:space="preserve">
+    <value>Tải lại dữ liệu trên bảng</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="LoggersManagerForm_Delete_Hint" xml:space="preserve">
+    <value>Xóa Logger đang chọn, đồng thời xóa dữ liệu cảm biến tương ứng với Logger này.</value>
+  </data>
+  <data name="LoggersManagerForm_EditSensor" xml:space="preserve">
+    <value>Cảm biến</value>
+  </data>
+  <data name="LoggersManagerForm_EditSensor_Hint" xml:space="preserve">
+    <value>Sửa các cảm biến trong logger</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="LoggersManagerForm_Add_Hint" xml:space="preserve">
+    <value>Thêm Logger mới</value>
+  </data>
+  <data name="Add_Edit" xml:space="preserve">
+    <value>Thêm / Chỉnh sửa</value>
+  </data>
+  <data name="LoggersManagerForm_OnlyNew" xml:space="preserve">
+    <value>Chỉ bản ghi mới</value>
+  </data>
+  <data name="LoggersManagerForm_AllFile" xml:space="preserve">
+    <value>Đọc toàn bộ File</value>
+  </data>
+  <data name="LoggersManagerForm_Read" xml:space="preserve">
+    <value>Bắt đầu đọc</value>
+  </data>
+  <data name="LoggersManagerForm_Begin_Read" xml:space="preserve">
+    <value>Đọc dữ liệu từ Logger bằng tay</value>
+  </data>
+  <data name="LoggersManagerForm_ReadStatus" xml:space="preserve">
+    <value>Trạng thái đọc: {0}</value>
+  </data>
+  <data name="LoggersManagerForm_Meta" xml:space="preserve">
+    <value>Meta: {0}</value>
+  </data>
+  <data name="LoggersManagerForm_LastRecordDate" xml:space="preserve">
+    <value>Bản ghi cuối: {0}</value>
+  </data>
+  <data name="LoggersManagerForm_FirstRecordDate" xml:space="preserve">
+    <value>Bản ghi đầu: {0}</value>
+  </data>
+  <data name="LastEditedDate" xml:space="preserve">
+    <value>Sửa lần cuối: {0}</value>
+  </data>
+  <data name="LoggersManagerForm_LastModifyDate" xml:space="preserve">
+    <value>Lần đọc cuối: {0}</value>
+  </data>
+  <data name="LoggersManagerForm_FileSize" xml:space="preserve">
+    <value>Kích thước file: {0} bytes</value>
+  </data>
+  <data name="LoggersManagerForm_RecordNumber" xml:space="preserve">
+    <value>Số bản ghi: {0}</value>
+  </data>
+  <data name="LoggersManagerForm_SensorNumber" xml:space="preserve">
+    <value>Số cảm biến : {0}</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="LoggersManagerForm_Delimiter_Hint" xml:space="preserve">
+    <value>Dấu phân cách giữa các giá trị trong file dữ liêu</value>
+  </data>
+  <data name="LoggersManagerForm_Delimiter" xml:space="preserve">
+    <value>Dấu phân cách</value>
+  </data>
+  <data name="Choise" xml:space="preserve">
+    <value>Chọn...</value>
+  </data>
+  <data name="LoggersManagerForm_LoggerName" xml:space="preserve">
+    <value>Tên Logger</value>
+  </data>
+  <data name="LoggersManagerForm_AutoRead_Hint" xml:space="preserve">
+    <value>Bật chế độ tự đọc dữ liệu sau một khoảng thời gian (chỉ đọc các bản ghi mới)</value>
+  </data>
+  <data name="LoggersManagerForm_Path" xml:space="preserve">
+    <value>Đường dẫn</value>
+  </data>
+  <data name="ToolTip_Title" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="LoggersManagerForm_Title" xml:space="preserve">
+    <value>Quản lý Loggers</value>
+  </data>
+  <data name="SensorsManagerForm_Column_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="SensorsManagerForm_Column_Index" xml:space="preserve">
+    <value>Thứ tự cột</value>
+  </data>
+  <data name="SensorsManagerForm_Column_Name" xml:space="preserve">
+    <value>Tên cảm biến</value>
+  </data>
+  <data name="SensorsManagerForm_Column_Unit" xml:space="preserve">
+    <value>Đơn vị đo</value>
+  </data>
+  <data name="SensorsManagerForm_InitializeComponent_AlarmEnabled" xml:space="preserve">
+    <value>Bật cảnh báo</value>
+  </data>
+  <data name="SensorsManagerForm_InitializeComponent_AlarmRunning" xml:space="preserve">
+    <value>Đang cảnh báo</value>
+  </data>
+  <data name="SensorsManagerForm_Column_InfoTab" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="SensorsManagerForm_InfoTab" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="SensorsManagerForm_Description" xml:space="preserve">
+    <value>Thông tin mô tả về cảm biến</value>
+  </data>
+  <data name="SensorsManagerForm_SensorName" xml:space="preserve">
+    <value>Tên cảm biến</value>
+  </data>
+  <data name="SensorsManagerForm_Index" xml:space="preserve">
+    <value>Thứ tự cột</value>
+  </data>
+  <data name="SensorsManagerForm_CalcTab" xml:space="preserve">
+    <value>Tính toán</value>
+  </data>
+  <data name="SensorsManagerForm_MaxAlarm" xml:space="preserve">
+    <value>Mức cảnh báo trên</value>
+  </data>
+  <data name="SensorsManagerForm_MinAlarm" xml:space="preserve">
+    <value>Mức cảnh báo dưới</value>
+  </data>
+  <data name="SensorsManagerForm_EnableAlarm" xml:space="preserve">
+    <value>Bật cảnh báo cho cảm biến này</value>
+  </data>
+  <data name="SensorsManagerForm_ReCalc" xml:space="preserve">
+    <value>Tính toán lại</value>
+  </data>
+  <data name="SensorsManagerForm_Edit" xml:space="preserve">
+    <value>Chỉnh sửa</value>
+  </data>
+  <data name="SensorsManagerForm_Add" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="SensorsManagerForm_Title" xml:space="preserve">
+    <value>Quản lý cảm biến</value>
+  </data>
+  <data name="Message_BackupSuccess" xml:space="preserve">
+    <value>Sao lưu dữ liệu thành công</value>
+  </data>
+  <data name="Message_RestoreSuccess" xml:space="preserve">
+    <value>Phục hồi dữ liệu thành công</value>
+  </data>
+  <data name="Confirm_Restore" xml:space="preserve">
+    <value>Bạn có muốn phục hồi toàn bộ dữ liệu từ file {0} không?</value>
+  </data>
+  <data name="Confirm_DeleteBackup" xml:space="preserve">
+    <value>Bạn có muốn xóa file backup {0} không?</value>
+  </data>
+  <data name="BackupRestoreForm_Delete_Hint" xml:space="preserve">
+    <value>Xóa file backup lựa chọn</value>
+  </data>
+  <data name="BackupRestoreForm_Backup" xml:space="preserve">
+    <value>Sao Lưu</value>
+  </data>
+  <data name="BackupRestoreForm_Backup_Hint" xml:space="preserve">
+    <value>Sao lưu toàn bộ dữ liệu ra file backup đặt trong thư mục đã chọn</value>
+  </data>
+  <data name="BackupRestoreForm_RestoreLabel" xml:space="preserve">
+    <value>Chọn file phục hồi</value>
+  </data>
+  <data name="BackupRestoreForm_Restore" xml:space="preserve">
+    <value>Phục Hồi</value>
+  </data>
+  <data name="BackupRestoreForm_Select" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="BackupRestoreForm_Restore_Hint" xml:space="preserve">
+    <value>Phục hồi toàn bộ dữ liệu từ file backup đã chọn</value>
+  </data>
+  <data name="BackupRestoreForm_BackupLabel" xml:space="preserve">
+    <value>Chọn thư mục sao lưu dữ liệu</value>
+  </data>
+  <data name="BackupRestoreForm_Column_Path" xml:space="preserve">
+    <value>Đường dẫn</value>
+  </data>
+  <data name="BackupRestoreForm_Column_Size" xml:space="preserve">
+    <value>Kích thước file</value>
+  </data>
+  <data name="BackupRestoreForm_Title" xml:space="preserve">
+    <value>Sao lưu phục hồi dữ liệu</value>
+  </data>
+  <data name="BackupRestoreForm_Column_CreationDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+</root>
